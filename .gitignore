@@ -1,0 +1,7 @@
+*/**/*-backups
+
+pcb/**/gerber
+
+case/gerber
+case/dxf
+
