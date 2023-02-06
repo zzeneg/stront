@@ -1,5 +1,3 @@
 (fp_lib_table
   (lib (name "zzkeeb")(type "KiCad")(uri "${KIPRJMOD}/../../lib/zzkeeb/kicad/zzkeeb.pretty")(options "")(descr ""))
-  (lib (name "kleeb-mcu")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kleeb/mcu.pretty")(options "")(descr ""))
-  (lib (name "kleeb-switch")(type "KiCad")(uri "${KIPRJMOD}/../../lib/kleeb/switch.pretty")(options "")(descr ""))
 )
