@@ -1,4 +1,4 @@
-2893480763877017
+2982100046926999
 Button_Switch_SMD
 Nidec_Copal_SH-7010A
 4-bit rotary coded switch, J-hook, https://www.nidec-copal-electronics.com/e/catalog/switch/sh-7000.pdf
@@ -1035,6 +1035,167 @@ switch tactile SPST 1P1T straight NO SMTR C&K
 0
 2
 2
+Connector
+Banana_Cliff_FCR7350x_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana
+0
+1
+1
+Connector
+Banana_Jack_1Pin
+Single banana socket, footprint - 6mm drill
+banana socket
+0
+1
+1
+Connector
+Banana_Jack_2Pin
+Dual banana socket, footprint - 2 x 6mm drills
+banana socket
+0
+2
+2
+Connector
+Banana_Jack_3Pin
+Triple banana socket, footprint - 3 x 6mm drills
+banana socket
+0
+3
+3
+Connector
+CUI_PD-30
+3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
+connector 3-pin PD-30 power DIN
+0
+4
+4
+Connector
+CUI_PD-30S
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
+8
+5
+Connector
+CUI_PD-30S_CircularHoles
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
+8
+5
+Connector
+CalTest_CT3151
+Right-angle standard banana jack, http://www.caltestelectronics.com/images/attachments/P315100rH_drawing.pdf
+banana jack horizontal
+0
+4
+1
+Connector
+Connector_SFP_and_Cage
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227302&DocType=Customer+Drawing&DocLang=English
+SFP+ SFP
+0
+40
+21
+Connector
+DTF13-12Px
+http://www.te.com/usa-en/product-DTF13-12PA-G003.html
+DEUTSCH DT header 12 pin 
+0
+12
+12
+Connector
+FanPinHeader_1x03_P2.54mm_Vertical
+3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 3-pin CPU fan
+0
+3
+3
+Connector
+FanPinHeader_1x04_P2.54mm_Vertical
+4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 4-pin CPU fan
+0
+4
+4
+Connector
+GB042-34S-H10
+http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
+34pin SMD connector 
+0
+34
+34
+Connector
+IHI_B6A-PCB-45_Vertical
+https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
+connector IHI B6A-PCB-45
+0
+49
+1
+Connector
+JWT_A3963_1x02_P3.96mm_Vertical
+JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)
+connector JWT A3963 pinhead
+0
+2
+2
+Connector
+NS-Tech_Grove_1x04_P2mm_Vertical
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+Connector
+SpringContact_Harwin_S1941-46R
+7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
+spring contact emi emc shield
+0
+1
+1
+Connector
+Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-430%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip
+Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+14
+14
 Connector_Audio
 Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal
 3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)
@@ -9379,6 +9540,279 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 0
 80
 80
+Display
+AG12864E
+STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
+AG12864E Graphics Display 128x64 Ampire
+0
+24
+20
+Display
+Adafruit_SSD1306
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+Display
+Adafruit_SSD1306_No_Mounting_Holes
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
+Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI 
+0
+8
+8
+Display
+CR2013-MI2120
+CR2013-MI2120 ILI9341 LCD Breakout http://pan.baidu.com/s/11Y990
+CR2013-MI2120 ILI9341 LCD Breakout
+0
+18
+14
+Display
+EA-eDIP128B-XXX
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip128-6e.pdf
+LCD-graphical display with LED backlight 128x64 RS-232 I2C or SPI
+0
+32
+32
+Display
+EA_DOGL128-6
+Graphical,Display,LCD,128x64 https://www.lcd-module.com/eng/pdf/grafik/dogl128-6e.pdf
+EA DOGL128
+0
+26
+26
+Display
+EA_DOGM128-6
+Graphical,Display,LCD,128x64 https://www.lcd-module.de/eng/pdf/grafik/dogm128e.pdf
+EA DOGM128-6
+0
+26
+26
+Display
+EA_DOGS104X-A
+LCD 4x10 character 3.3V VDD I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/doma/dogs104e.pdf
+LCD 4x10 character 3.3V VDD I2C or SPI
+0
+14
+14
+Display
+EA_DOGXL160-7
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7
+0
+22
+22
+Display
+EA_DOGXL160-7_Backlight
+Grapchical,Display,LCD,160x104 http://www.lcd-module.com/eng/pdf/grafik/dogxl160-7e.pdf
+EA_DOGXL160-7_Backlight
+0
+22
+22
+Display
+EA_T123X-I2C
+http://www.lcd-module.de/pdf/doma/t123-i2c.pdf
+3 Line 12 character wide alpha numeric LCD
+0
+6
+6
+Display
+EA_eDIP160-XXX
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip160-7e.pdf
+LCD-graphical display with LED backlight 160x104 RS-232 I2C or SPI
+0
+40
+40
+Display
+EA_eDIP240-XXX
+LCD graphical display LED backlight 240x128 http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip240-7e.pdf
+LCD graphical display LED backlight 240x128
+0
+40
+40
+Display
+EA_eDIP320X-XXX
+LCD display 320x340 RS-232 I2C or SPI http://www.lcd-module.com/fileadmin/eng/pdf/grafik/edip320-8e.pdf
+LCD display 320x340 RS-232 I2C or SPI
+0
+48
+48
+Display
+EA_eDIPTFT32-XXX
+TFT-graphic display 320x240 16 bit colour with led backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft32-ae.pdf
+TFT-graphic display 320x240 16 bit colour with led backlight
+0
+40
+40
+Display
+EA_eDIPTFT43-ATC
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+Display
+EA_eDIPTFT43-XXX
+TFT graphical display 480x272 16-bit colour with LED backlight http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft43-ae.pdf
+TFT graphical display 480x272 16-bit colour with LED backlight
+0
+40
+40
+Display
+EA_eDIPTFT57-XXX
+http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft57-ae.pdf
+TFT-graphic display 640x480 16 bit colour
+0
+48
+48
+Display
+EA_eDIPTFT70-ATC
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours with capacitive touch panel
+0
+48
+48
+Display
+EA_eDIPTFT70-XXX
+TFT-graphical display 800x480 16-bit colours http://www.lcd-module.com/fileadmin/eng/pdf/grafik/ediptft70-ae.pdf
+TFT-graphical display 800x480 16-bit colours and touch display
+0
+48
+48
+Display
+ERM19264
+STN/FSTN LCD 192x64 dot https://www.buydisplay.com/download/manual/ERM19264-1_Series_Datasheet.pdf
+ERM19264 Graphics Display 192x64
+0
+20
+20
+Display
+HDSM-441B_HDSM-443B
+2 Digit 7 segemnt blue LED, right hand decimal, https://docs.broadcom.com/docs/AV02-1589EN
+2 Digit 7 segment blue LED
+0
+10
+10
+Display
+HDSM-541B_HDSM-543B
+2 digit 7 segement blue LED with right hand decimal, https://docs.broadcom.com/docs/AV02-1588EN
+2 digit 7 segement blue LED with right hand decimal
+0
+10
+10
+Display
+HDSP-48xx
+10-Element Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Bar Graph Array
+0
+20
+20
+Display
+HDSP-4830
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+Display
+HDSP-4832
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+Display
+HDSP-4836
+10-Element Red Yellow Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Yellow Green Bar Graph Array
+0
+20
+20
+Display
+HDSP-4840
+10-Element Yellow Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Yellow Bar Graph Array
+0
+20
+20
+Display
+HDSP-4850
+10-Element Green Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Green Bar Graph Array
+0
+20
+20
+Display
+HLCP-J100
+10-Element Red Bar Graph Array https://docs.broadcom.com/docs/AV02-1798EN
+10-Element Red Bar Graph Array
+0
+20
+20
+Display
+HY1602E
+http://www.icbank.com/data/ICBShop/board/HY1602E.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
+Display
+LCD-016N002L
+16 x 2 Character LCD, http://www.vishay.com/product?docid=37299
+LCD-016N002L 16 x 2 Character LCD
+0
+24
+20
+Display
+LM16255
+LCD LM16255 16x2 character http://www.datasheetlib.com/datasheet/259542/lm16255_sharp-electronics.html
+LCD 12x2
+0
+14
+14
+Display
+NHD-0420H1Z
+NHD-0420H1Z LCD http://www.newhavendisplay.com/specs/NHD-0420H1Z-FSW-GBW-33V3.pdf
+NHD-0420H1Z LCD
+0
+16
+16
+Display
+NHD-C0220BiZ
+NHD-C0220BiZ LCD http://www.newhavendisplay.com/specs/NHD-C0220BiZ-FSW-FBW-3V3M.pdf
+NHD-C0220BiZ LCD
+0
+10
+10
+Display
+NHD-C12832A1Z-FSRGB
+128x32 LCD with RGB backlight https://www.newhavendisplay.com/specs/NHD-C12832A1Z-FSRGB-FBW-3V.pdf
+lcd rgb st7565
+0
+21
+21
+Display
+OLED-128O064D
+128x64 OLED display
+display oled
+0
+30
+30
+Display
+RC1602A
+http://www.raystar-optronics.com/down.php?ProID=18
+LCD 16x2 Alphanumeric 16pin
+0
+22
+18
+Display
+WC1602A
+LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
+LCD 16x2 Alphanumeric 16pin
+0
+20
+16
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -11689,139 +12123,20 @@ Logo WEEE
 0
 0
 0
-kleeb-mcu
-holyiot-18010
-
-
+zzkeeb
+Connector_FFC-FPC-vertical-12pin
+Molex 0.50mm Pitch Easy-On Type FFC/FPC, 52559-3652, 36 Circuits (https://www.molex.com/pdm_docs/sd/525593652_sd.pdf)
+connector Molex top entry
 0
-55
-55
-kleeb-mcu
-holyiot-18010-no-underside
-
-
+14
+12
+zzkeeb
+Connector_FPC-FFC-adapter-12pin
+Through hole straight pin header, 2x06, 2.54mm pitch, double rows
+Through hole pin header THT 2x06 2.54mm double row
 0
-37
-37
-kleeb-mcu
-ms88sf3
-
-
-0
-64
-64
-kleeb-mcu
-rp2040-zero-smd
-
-
-0
-23
-23
-kleeb-mcu
-rp2040-zero-smd-pads
-
-
-0
-33
-33
-kleeb-mcu
-rp2040-zero-smd-pads-cutout
-
-
-0
-33
-33
-kleeb-mcu
-rp2040-zero-tht
-
-
-0
-23
-23
-kleeb-mcu
-rp2040-zero-tht-pads
-
-
-0
-33
-33
-kleeb-mcu
-rp2040-zero-tht-pads-cutout
-
-
-0
-33
-33
-kleeb-mcu
-xiao-ble-smd
-
-
-0
-22
-22
-kleeb-mcu
-xiao-ble-smd-cutout
-
-
-0
-22
-22
-kleeb-mcu
-xiao-ble-tht
-
-
-0
-22
-22
-kleeb-mcu
-xiao-smd
-
-
-0
-18
-18
-kleeb-mcu
-xiao-tht
-
-
-0
-18
-18
-kleeb-switch
-EC10E
-
-
-0
-5
-4
-kleeb-switch
-EVQWGD001
-
-
-0
-6
-6
-kleeb-switch
-SKRHA-boss
-
-
-0
-8
-6
-kleeb-switch
-SKRHA-no-boss
-
-
-0
-8
-6
-kleeb-switch
-switch-MSK-12C02-smd
-
-
-0
-7
-3
+12
+12
 zzkeeb
 Connector_HRO-TYPE-C-31-M-12-data
 
@@ -11837,6 +12152,20 @@ connector JST PH top entry
 2
 2
 zzkeeb
+Connector_JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal
+JST PH series connector, S8B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+8
+8
+zzkeeb
+Connector_TRRS
+
+
+0
+4
+4
+zzkeeb
 Connector_TRRS-reversible
 
 
@@ -11849,21 +12178,21 @@ Connector_USB-C-mid-mount-ali
 
 0
 20
-20
+17
 zzkeeb
 Connector_USB-C-mid-mount-ali-data
 
 
 0
 16
-16
+13
 zzkeeb
 Connector_USB-C-mid-mount-ali-reversible-data
 
 
 0
 28
-16
+13
 zzkeeb
 Cutout_1N4148-SOD123
 Resitance 3 pas
@@ -11977,6 +12306,13 @@ R
 4
 2
 zzkeeb
+Hole_Breakaway-Tabs
+
+
+0
+0
+0
+zzkeeb
 Hole_M2
 Mounting Hole 2.2mm, no annular, M2
 mounting hole 2.2mm no annular m2
@@ -12033,6 +12369,13 @@ MCU_rp2040-zero-smd
 23
 23
 zzkeeb
+MCU_rp2040-zero-tht-pads
+
+
+0
+33
+33
+zzkeeb
 MCU_xiao-ble-smd
 
 
@@ -12047,7 +12390,21 @@ Pointing_Cirque-adapter
 4
 4
 zzkeeb
+Pointing_Cirque-adapter-reversible
+
+
+0
+4
+4
+zzkeeb
 RotaryEncoder_EC11
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+7
+5
+zzkeeb
+RotaryEncoder_EC11-reversible
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
@@ -12060,6 +12417,20 @@ RotaryEncoder_EVQWGD001
 0
 6
 6
+zzkeeb
+RotaryEncoder_EVQWGD001-reversible
+
+
+0
+6
+6
+zzkeeb
+Switch_ChocV1-hotswap
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
 zzkeeb
 Switch_ChocV1-hotswap-reversible
 Kailh "Choc" PG1350 keyswitch reversible socket mount
