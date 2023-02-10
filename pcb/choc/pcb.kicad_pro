@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../3dprint/choc/pcb-left.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
