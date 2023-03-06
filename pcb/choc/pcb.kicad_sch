@@ -3685,30 +3685,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 132.08 240.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 00683e07-fa5f-4cec-a183-f26f357c96a9)
-    (property "Reference" "H5" (at 134.62 238.7599 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 134.62 241.2999 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "zzkeeb:Hole_M2-spacer" (at 132.08 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.08 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pcb"
-        (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:VDD") (at 269.24 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 008af0cf-352d-4d86-b1f9-dc0e813096ba)
@@ -4040,30 +4016,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 339.09 243.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 11ea2dc8-c8f3-440b-b69b-d03311294d5a)
-    (property "Reference" "H20" (at 341.63 242.5699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 341.63 245.1099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "zzkeeb:Hole_M2-spacer" (at 339.09 243.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 339.09 243.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pcb"
-        (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
-          (reference "H20") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "zzkeeb:Switch") (at 307.34 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 142b5eff-8e82-4c4f-8adf-c3074842f60b)
@@ -4200,30 +4152,6 @@
       (project "pcb"
         (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
           (reference "D10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 339.09 199.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 17ab6ac0-f815-4e31-9ae5-9229789868c4)
-    (property "Reference" "H11" (at 341.63 198.1199 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 341.63 200.6599 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "zzkeeb:Hole_M2-spacer" (at 339.09 199.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 339.09 199.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pcb"
-        (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
-          (reference "H11") (unit 1)
         )
       )
     )
@@ -4991,30 +4919,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 339.09 231.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3f3c0018-709a-4d50-a7f1-0b0eb04aa742)
-    (property "Reference" "H16" (at 341.63 229.8699 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 341.63 232.4099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "zzkeeb:Hole_M2-spacer" (at 339.09 231.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 339.09 231.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pcb"
-        (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
-          (reference "H16") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "zzkeeb:Switch") (at 271.78 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fe9b1a8-2e67-47fe-87be-f2df5d1b222e)
@@ -5507,30 +5411,6 @@
       (project "pcb"
         (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
           (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 132.08 271.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6709513e-89b1-4385-bd57-5fc73b5bba9b)
-    (property "Reference" "H18" (at 134.62 270.5099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 134.62 273.0499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "zzkeeb:Hole_M2-spacer" (at 132.08 271.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.08 271.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pcb"
-        (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
-          (reference "H18") (unit 1)
         )
       )
     )
@@ -7169,30 +7049,6 @@
       (project "pcb"
         (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
           (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 132.08 259.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b03a23dd-0efc-426b-ac00-bea2463cb98b)
-    (property "Reference" "H8" (at 134.62 257.8099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 134.62 260.3499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "zzkeeb:Hole_M2-spacer" (at 132.08 259.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 132.08 259.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "pcb"
-        (path "/5689f24b-6eca-4ca4-9c6c-dd56b6ced5a9"
-          (reference "H8") (unit 1)
         )
       )
     )
