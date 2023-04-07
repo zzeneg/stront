@@ -20,6 +20,7 @@ Split keyboard with 38 keys, LCD display and Cirque trackpad.
 
 ![](./images/top.jpg)
 ![](./images/pcb.jpg)
+<video src="./images/lcd.mp4" height="250px" />
 
 ## Gerber files
 
