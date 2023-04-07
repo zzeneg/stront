@@ -14,13 +14,14 @@ Split keyboard with 38 keys, LCD display and Cirque trackpad.
 - splay on ring/pinky columns
 - 3D printed cases
 
-**PCB has all SPI/I2C contacts exposes, so any other device can be used instead, it's just a matter of changing the case (at least that's the idea).**
+**PCB has all SPI/I2C contacts exposed, so any other device can be used instead, it's just a matter of changing the case (at least that's the idea).**
 
 ## Photos
 
 ![](./images/top.jpg)
 ![](./images/pcb.jpg)
-<video src="./images/lcd.mp4" height="250px" />
+
+<video src="images/lcd.mp4" height="250px" controls></video>
 
 ## Gerber files
 
