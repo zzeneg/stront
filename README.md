@@ -72,7 +72,11 @@ If you'd like to support me financially please consider ordering using my [share
 QMK (work in progress)
 
 - [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/stront/keyboards/stront)
-- [pre-compiled file](./firmware/qmk/stront_zzeneg.uf2)
+- [pre-compiled files](./firmware/qmk/):
+  - `default` - sample keymap with home row mods. Not recommended for longer use - create your own.
+  - `hid` - default keymap with HID support. Requires host-hid application.
+  - `i2c` - default keymap with I2C Cirque instead of default SPI.
+  - `zzeneg` - my highly customized layout (with HID and I2C).
 
 ## Build log
 
