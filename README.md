@@ -59,3 +59,6 @@ QMK (work in progress)
   - `zzeneg` - my highly customized layout (with HID and I2C).
 
 ## [BOM, Build Guide](./build-guide/build-guide.md)
+
+## Support
+If you like my work and want to support my future designs, please consider [sponsorship](https://github.com/sponsors/zzeneg).
