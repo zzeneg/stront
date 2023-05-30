@@ -20,7 +20,9 @@ Split keyboard with 38 keys, LCD display and Cirque trackpad.
 
 ![](./images/top.jpg)
 ![](./images/pcb.jpg)
-<video src="https://user-images.githubusercontent.com/910255/230727603-dd550fdb-f6c9-4c04-b770-03d1b5c3b9b1.mp4" height="200" controls />
+
+https://github.com/zzeneg/stront/assets/910255/bb812821-9b2b-454a-a9a5-45d696a1f5aa
+
 
 ## Gerber files
 
