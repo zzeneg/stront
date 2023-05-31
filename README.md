@@ -62,3 +62,12 @@ QMK (work in progress)
 
 ## Support
 If you like my work and want to support my future designs, please consider [sponsorship](https://github.com/sponsors/zzeneg).
+
+### Sponsors
+
+Thank you very much for your support!
+
+<a href="https://shop.beekeeb.com" target="_blank"><img src="https://beekeeb.com/beekeeb-logo.png" align="left" width="200" ></a>
+
+
+
