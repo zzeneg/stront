@@ -1,4 +1,4 @@
-142766160828152
+144453191588709
 zzkeeb
 Connector_Display-8pin-SPI-2.0mm
 JST PH series connector, S8B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
@@ -554,6 +554,13 @@ Switch_MXChocV2-hotswap-1.5
 2
 zzkeeb
 Switch_MXKS-cutout-bottom-hotswap-south
+
+
+0
+0
+0
+zzkeeb
+Switch_MXKS-cutout-top
 
 
 0

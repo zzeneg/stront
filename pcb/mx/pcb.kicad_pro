@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../case/choc/pcb.step",
+      "step": "../../case/mx/pcb-mx.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
