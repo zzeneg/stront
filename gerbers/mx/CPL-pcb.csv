@@ -43,5 +43,5 @@ R1,R,R_1206_3216Metric,-38.0,-31.0,270.0,bottom
 R2,R,R_1206_3216Metric,-34.5,-31.0,270.0,bottom
 R3,R,R_1206_3216Metric,34.500001,-30.993919,270.0,bottom
 R4,R,R_1206_3216Metric,38.0,-30.993919,270.0,bottom
-VIK_K3,Connector_VIK-keyboard,Connector_VIK-horizontal-keyboard,-28.0,-47.0,270.0,bottom
-VIK_K6,Connector_VIK-keyboard,Connector_VIK-horizontal-keyboard,28.0,-47.0,90.0,bottom
+VIK_K3,Connector_VIK-keyboard,Connector_VIK-horizontal-keyboard,-29.3,-47.0,270.0,bottom
+VIK_K6,Connector_VIK-keyboard,Connector_VIK-horizontal-keyboard,29.3,-47.0,90.0,bottom
