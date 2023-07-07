@@ -74,7 +74,7 @@
   "project": {
     "files": [
       {
-        "name": "pcb.kicad_sch",
+        "name": "pcb.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
@@ -86,7 +86,7 @@
         }
       },
       {
-        "name": "pcb.kicad_pcb",
+        "name": "pcb.kicad_sch",
         "open": false,
         "window": {
           "display": 0,

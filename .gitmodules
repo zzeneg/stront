@@ -1,3 +1,6 @@
 [submodule "lib/zzkeeb"]
 	path = lib/zzkeeb
 	url = ../zzkeeb.git
+[submodule "lib/vik"]
+	path = lib/vik
+	url = ../../sadekbaroudi/vik
