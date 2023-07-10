@@ -49,9 +49,8 @@ If you'd like to support me financially please consider ordering using my [share
 
 [Host application](https://github.com/zzeneg/qmk-hid-host) for Raw HID communication
 
-QMK (work in progress)
-
-- [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/stront/keyboards/stront)
+QMK
+- [source code](https://github.com/qmk/qmk_firmware/tree/master/keyboards/stront)
 - [pre-compiled files](./firmware/qmk/):
   - `default` - sample keymap with home row mods. Not recommended for longer use - create your own.
   - `hid` - default keymap with HID support. Requires host-hid application.
