@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "zzkeeb")(type "KiCad")(uri "${KIPRJMOD}/../../lib/zzkeeb/kicad/zzkeeb.pretty")(options "")(descr ""))
-)

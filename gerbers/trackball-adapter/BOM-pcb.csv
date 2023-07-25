@@ -1,7 +1,0 @@
-Comment,Designator,Footprint,LCSC
-Connector_VIK-module,VIK_M1,Connector_VIK-horizontal-keyboard,C479750
-SolderJumper_3_Open,JP1,SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm,
-Display_generic-spi-8pin,DISP1,Connector_Display-8pin-SPI-2.0mm,
-Conn_01x08_Pin,J1,PinHeader_1x08_P2.54mm_Vertical,
-Connector_VIK-module,VIK_M3,Connector_VIK-adapter-keyboard,
-Connector_VIK-module,VIK_M2,Connector_VIK-vertical-keyboard,

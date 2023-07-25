@@ -1,6 +1,0 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-DISP1,Display_generic-spi-8pin,Connector_Display-8pin-SPI-2.0mm,33.45,-0.0,90.0,top
-J1,Conn_01x08_Pin,PinHeader_1x08_P2.54mm_Vertical,3.0,-0.035,0.0,top
-VIK_M1,Connector_VIK-module,Connector_VIK-horizontal-keyboard,21.0,-0.0,270.0,bottom
-VIK_M2,Connector_VIK-module,Connector_VIK-vertical-keyboard,23.0,-0.0,0.0,top
-VIK_M3,Connector_VIK-module,Connector_VIK-adapter-keyboard,22.06,-0.4,0.0,top
