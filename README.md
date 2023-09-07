@@ -55,6 +55,7 @@ Compiled versions:
 - `*-round` - version with round display (GC9A01 240x240)
 - `*-flat` - version with flat Cirque
 - `*-curved` - version with curved Cirque
+- `*-mirror` - version with trackpad on left and display on right side
 
 ## Build Guide
 
