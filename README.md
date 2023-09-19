@@ -100,7 +100,7 @@ All possible connectors support VIK - FPC horizontal on the back, FPC vertical o
 
 ## Support
 
-If you like my work and want to support my future designs, please consider [sponsorship](https://github.com/sponsors/zzeneg).
+If you like my work and want to support my future designs, please consider [sponsorship](https://github.com/sponsors/zzeneg), ordering from PCBWay using my shared projects - [Choc](https://www.pcbway.com/project/shareproject/Stront_low_profile_keyboard_85ec2664.html) and [MX/KS](https://www.pcbway.com/project/shareproject/Stront_MX_KS_33_keyboard_6a70e49a.html), or using [referral link](https://pcbway.com/g/3wpLAF) for signing up.
 
 #### Sponsors
 
