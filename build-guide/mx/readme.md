@@ -4,7 +4,7 @@ Actual build guide is underway, but it's very similar to [choc version](/build-g
 
 ## Gerber files
 
-- [PCB](/gerbers/mx/pcb.zip)
+- [PCB](/gerbers/mx/GERBER-pcb.zip)
 
 ## Case files (3d printed)
 
