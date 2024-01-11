@@ -2,9 +2,6 @@
 
 Split keyboard with 38 keys, LCD display and Cirque trackpad.
 
-####  🏭 _Extra PCBs available_ 
-_I have some extras laying around, ping me on discord/reddit if interested (EU only)._ 💶
-
 ## Features
 
 - MX, KS-33 or Choc switches
