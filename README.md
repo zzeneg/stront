@@ -1,6 +1,6 @@
 # stront
 
-Split keyboard with 38 keys, LCD display and Cirque trackpad.
+Split keyboard with 38 keys, LCD display and trackpad (Azoteq or Cirque).
 
 ## Features
 
@@ -9,7 +9,7 @@ Split keyboard with 38 keys, LCD display and Cirque trackpad.
 - 38 keys
 - roller/rotary encoders
 - LCD display (1.69" 240x280 by default)
-- Cirque trackpad (40mm by default)
+- Azoteq/Cirque trackpad support
 - 2-key pinky columns
 - 3D printed cases
 - [VIK](https://github.com/sadekbaroudi/vik) support - **MX/KS version only**
@@ -18,15 +18,16 @@ Split keyboard with 38 keys, LCD display and Cirque trackpad.
 
 ## Photos
 
-#### Choc version
-
-![](./images/top.jpg)
-![](./images/pcb.jpg)
-
 #### MX Version
 
 ![](./images/mx.jpg)
 ![](./images/mx3.jpg)
+![](./images/tps65.jpg)
+
+#### Choc version
+
+![](./images/top.jpg)
+![](./images/pcb.jpg)
 
 #### Display with PC companion app
 
@@ -62,6 +63,12 @@ Compiled versions:
 [MX/KS version](./build-guide/mx/readme.md)
 
 [Choc version](./build-guide/choc/readme.md)
+
+## Azoteq touchpads - MX/KS version only ⚠️
+
+- covers (right side only) - [TPS43](./stl/mx/azoteq-tps43.stl), [TPS65](./stl/mx/azoteq-tps65-right.stl) (tested)
+- firmware - experimental support [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/zzeneg/keyboards/stront)
+- to connect touchpad you can use either [VIK adapter](https://github.com/sadekbaroudi/vik/tree/master/pcb/azoteq-tps) or solder wires directly from Azoteq pads to I2C contacts on PCB
 
 ## VIK - MX/KS version only ⚠️
 
