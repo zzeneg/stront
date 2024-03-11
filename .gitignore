@@ -2,6 +2,8 @@
 
 pcb/**/gerber
 
+production
+
 case/gerber
 case/dxf
 
