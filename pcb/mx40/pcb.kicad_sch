@@ -24095,7 +24095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "vik:vik-keyboard-connector-vertical"
+		(property "Footprint" "zzkeeb:Connector_VIK-vertical-keyboard"
 			(at 486.41 250.19 0)
 			(effects
 				(font
@@ -27904,7 +27904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "vik:vik-keyboard-connector-vertical"
+		(property "Footprint" "zzkeeb:Connector_VIK-vertical-keyboard"
 			(at 186.69 251.46 0)
 			(effects
 				(font
