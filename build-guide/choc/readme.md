@@ -2,16 +2,16 @@
 
 ## Gerber files
 
-- [PCB](/gerbers/choc/pcb.zip)
+- [PCB](/gerbers/choc.zip)
 
 ## Case files (3d printed)
 
-All files are in [stl](/stl/choc) folder.
+All files are in [case/choc](/case/choc) folder.
 
 - thin version - just cutouts for all elements, as low as it can be. May be combined with normal top case and metal bottom plate for additional weight. Has additional holes for 8mm magnets.
   ![](/images/bottom.jpg)
 - normal (1mm higher)
-  ![](/renders/bottom.png)
+  ![](/images/renders/bottom.png)
 
 ## Ordering
 
