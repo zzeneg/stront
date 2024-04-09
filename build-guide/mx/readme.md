@@ -26,6 +26,7 @@ All files are in [stl](/stl/mx) folder.
 - 2 [EC11/12 rotary encoder](https://www.aliexpress.com/item/33006686909.html) with [knob](https://www.aliexpress.com/item/1005003425428192.html) or [Panasonic EVQWGD001 roller encoder](https://www.aliexpress.com/item/32990950196.html)
 - 14mm for covers and 8mm (for MX) or 6mm (for KS) M2 [screws with flat head](https://www.aliexpress.com/item/4001248931159.html)
 - M2 [nuts](https://www.aliexpress.com/item/1005001412230125.html)
+- M2 [heatset inserts (4mmx4mm)](https://www.aliexpress.com/item/4000232858343.html) 
 - [LCD 1.69" 240x280 display](https://www.aliexpress.com/item/1005004922900927.html)
 - Right angled PH2.0 8pin [male connector](https://www.aliexpress.com/item/1005003115054198.html)
 - PH2.0 8 pin [female connector with wires](https://www.aliexpress.com/item/4000130210271.html)
