@@ -6,7 +6,7 @@ The build process is the same for 38 and 40 keys versions, but files are differe
 
 - Main PCB - [mx40](/gerbers/mx40.zip) or [mx38](/gerbers/mx38.zip)
 - for Azoteq touchpad only - [VIK adapter](https://github.com/sadekbaroudi/vik/tree/master/pcb/azoteq-tps) (or solder wires directly instead)
-- for bare 2" display only - [VIK adapter](https://github.com/zzeneg/vik-display-adapter) (universal 0.8mm pitch)
+- for bare 2" display only - [VIK adapter](https://github.com/zzeneg/vik-display-adapter) (universal pcb 0.8mm/0.7 pitch - **must** match your display)
 
 ## Case files (3d printed)
 
@@ -27,12 +27,13 @@ Covers - in [covers](/stl/covers) folder:
 - 2 Waveshare [RP2040 Zero](https://www.aliexpress.com/item/3256804090654134.html) MCUs
 - 42 [SMD SOD-123 1N4148](https://www.aliexpress.com/item/1005002882901030.html) diodes
 - 2 [EC11/12 rotary encoder](https://www.aliexpress.com/item/33006686909.html) with [knob](https://www.aliexpress.com/item/1005003425428192.html) or [Panasonic EVQWGD001 roller encoder](https://www.aliexpress.com/item/32990950196.html)
-- 14mm and 8mm (for MX) or 6mm (for KS) M2 [screws with flat head](https://www.aliexpress.com/item/4001248931159.html)
+- 8mm (ideally 9mm) for MX or 6mm for KS, 14mm for covers [M2 screws with flat head](https://www.aliexpress.com/item/4001248931159.html)
 - M2 [nuts](https://www.aliexpress.com/item/1005001412230125.html)
+- M2 [heatset inserts](https://www.aliexpress.com/item/1005004624377733.html) - 4mm length, 3.2mm diameter for resin case or 3.5mm for Nylon/PLA
 - One display:
   - LCD 1.69" 240x280 [display](https://www.aliexpress.com/item/1005004922900927.html)
   - LCD 1.28" round [display](https://www.aliexpress.com/item/1005004069703494.html) - "square" option, with 8 corners
-  - Bare LCD 2" round [display](https://www.aliexpress.com/item/1416043398.html) - **VIK adapter required**
+  - Bare LCD 2" round [display](https://www.aliexpress.com/item/1416043398.html) - **VIK adapter required** (that link uses 0.8mm pitch, others may use 0.7mm)
 - One touchpad:
   - Cirque 40mm with flat or curved overlay
   - Azoteq TPS43
@@ -138,7 +139,9 @@ Choose your encoders and solder them, there's only one way to solder it. I prefe
 
 ### Vertical FFC connector (VIK/Cirque/Bare display)
 
-Pretty similar to USB-C connector but easier thanks to 1mm space between pins. Also if you fail the step you can use a [daughterboard](https://www.aliexpress.com/item/4001156449357.html)(0.5mm pitch, 12 pins), it matches the holes on the PCB.
+> Skip this if using Azoteq without VIK adapter. Solder wires directly from Azoteq to testing pads on the PCB (VCC/GND/SDA/SCL).
+
+Pretty similar to USB-C connector but easier thanks to 1mm space between pins. Also if you fail the step you can use a [daughterboard](https://www.aliexpress.com/item/4001156449357.html) (0.5mm pitch, 12 pins), it matches the holes on the PCB.
 
 - place connector with black moving part facing the switches (if you messed up here, don't worry and just use another cable during assembly)
 - tin one square mounting pad, align small pins to pads and solder big pad ![](./12.jpg)
@@ -150,11 +153,13 @@ Pretty similar to USB-C connector but easier thanks to 1mm space between pins. A
 
 ### Display
 
+> Skip this if using VIK for the display. Assemble the [adapter](https://github.com/zzeneg/vik-display-adapter) instead.
+
 Start with adding male connector to the PCB.
 
 ![](./17.jpg)
 
-Take a female connector with wires and cut them to 5cm. Make sure the connector is correctly oriented (when inserted into PCB the display should be facing up) and solder them. Cut wires/solder blobs on top afterwards so that display's PCB is flat. You can hotglue wires to display to secure them in place.
+Take a female connector with wires and cut them to 5cm. Make sure the connector is correctly oriented (when inserted into PCB the display should be facing up) and solder them. Cut wires/solder blobs on top afterwards so that display's PCB is flat. You can hot glue wires to display to secure them in place.
 
 ### Testing/flashing
 
@@ -177,7 +182,7 @@ At this point you can connect everything and test the keyboard. Again, be extra 
   See [keymap](https://github.com/zzeneg/qmk_firmware/blob/feature/stront/keyboards/stront/keymaps/default/keymap.c) for better understanding. **Reconnect the keyboard to apply changes.**
 
 - test display and touchpad
-- test all keys - insert swithes or short sockets with something like metal tweezers or TRRS cable
+- test all keys - insert switches or short sockets with something like metal tweezers or TRRS cable
 - test encoders
 - test USB-C interconnect in all 4 possible cable positions
 - test LEDs - press or lightly tap each LED with your fingers to make sure the soldering is fine, there should be no flickering
@@ -185,14 +190,26 @@ At this point you can connect everything and test the keyboard. Again, be extra 
 
 ### Assembly
 
-- use three 5mm screws and nuts to attach the display to the case
-- add three 5mm screws and 8mm standoffs
-- connect display, use tweezers/pliers if needed
-- connect touchpad to PCB using reverse cable. If you soldered the FPC connector in the wrong way - use forward cable instead
-- carefully insert PCB into case. Inserting USB-C/TRRS connectors will require just a bit of force
-- attach bottom case, add 3 screws from bottom side (near display/touchpad)
-- insert 4 nuts into bottom part, add 5mm (or 6mm for high case version) screws from top side
-- add magnets/rubber sheet/legs if you wish
+- add heatset inserts into covers
+  - for Nylon/PLA use 3.5mm diameter and insert them with soldering iron or special heat gun
+  - for resin use 3.2mm diameter and super glue. DO NOT apply heat to resin case! If the hole is too small, just drill it to the correct size
+- insert modules (display/touchpads) into covers, secure them in place with hot glue on the inside
+- insert PCB into case. Inserting USB-C/TRRS connectors will require just a bit of force
+- connect FFC and display cables, check continuity (or examine 3v3 label visually), try forward/reverse FFC cables if needed. FFC cables can be bent as needed.
+- flash correct firmware for each side, test that display and touchpad are working
+- insert 5 nuts into bottom case
+- attach bottom case with 14mm and 6mm/8mm screws. If the 8mm screws for MX seem too short, try to tighten the hex with a long screw first.
+- add legs and magnets if needed
+- add switches and knobs
+
+Examples:
+
+- round display
+  ![](./20.jpg)
+- bare display with adapter
+  ![](./18.jpg)
+- Azoteq with adapter
+  ![](./19.jpg)
 
 ### Troubleshooting
 

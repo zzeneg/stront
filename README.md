@@ -24,7 +24,11 @@ All versions:
 
 ## Photos
 
-#### MX-38 Versions (MX and KS-33)
+#### MX-40 and MX-38 versions
+
+![](./images/mx40.jpg)
+
+#### MX-38 versions (MX and KS-33 switches)
 
 ![](./images/mx.jpg)
 
@@ -48,8 +52,6 @@ https://github.com/zzeneg/stront/assets/910255/bb812821-9b2b-454a-a9a5-45d696a1f
   - Azoteq TPS43
   - Azoteq TPS65
 
-<img src="./images/mx-covers.jpg" height="600" />
-
 ## Firmware
 
 [Companion app](https://github.com/zzeneg/qmk-hid-host) for Raw HID communication.
@@ -58,13 +60,13 @@ https://github.com/zzeneg/stront/assets/910255/bb812821-9b2b-454a-a9a5-45d696a1f
 
 Please see main `config.h` and `rules.mk` for comments and available options.
 
-- [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/stront/keyboards/stront)
-- [pre-compiled files](./firmware/qmk/)
+- [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/zzeneg/keyboards/stront)
+- [pre-compiled files](https://github.com/zzeneg/qmk_firmware/releases/tag/zzeneg)
 
 #### Vial
 
-- [source code](https://github.com/zzeneg/vial-qmk/tree/feature/stront)
-- [pre-compiled files](./firmware/vial/)
+- [source code](https://github.com/zzeneg/vial-qmk/tree/feature/zzeneg/keyboards/stront)
+- [pre-compiled files](https://github.com/zzeneg/vial-qmk/releases/tag/zzeneg)
 
 #### Compiled versions
 
