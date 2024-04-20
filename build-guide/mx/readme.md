@@ -24,6 +24,9 @@ Covers - in [covers](/case/covers) folder:
 
 - PCBs
 - 3D printed case (6 parts)
+- 38/40 switches (MX or KS-33/27)
+- 38/40 hotswap sockets ([MX](https://www.aliexpress.com/item/1005004337532370.html) or [KS-33/27](https://www.aliexpress.com/item/1005005931500291.html))
+- 38/40 [RGB LEDs 3mA](https://www.aliexpress.com/item/1005003636607308.html)
 - 2 Waveshare [RP2040 Zero](https://www.aliexpress.com/item/3256804090654134.html) MCUs
 - 42 [SMD SOD-123 1N4148](https://www.aliexpress.com/item/1005002882901030.html) diodes
 - 2 [EC11/12 rotary encoder](https://www.aliexpress.com/item/33006686909.html) with [knob](https://www.aliexpress.com/item/1005003425428192.html) or [Panasonic EVQWGD001 roller encoder](https://www.aliexpress.com/item/32990950196.html)
@@ -33,17 +36,16 @@ Covers - in [covers](/case/covers) folder:
 - One display:
   - LCD 1.69" 240x280 [display](https://www.aliexpress.com/item/1005004922900927.html)
   - LCD 1.28" round [display](https://www.aliexpress.com/item/1005004069703494.html) - "square" option, with 8 corners
-  - Bare LCD 2" round [display](https://www.aliexpress.com/item/1416043398.html) - **VIK adapter required** (that link uses 0.8mm pitch, others may use 0.7mm)
+  - Bare LCD 2" 240x320 [display](https://www.aliexpress.com/item/1416043398.html) - **VIK adapter required** (that link uses 0.8mm pitch, others may use 0.7mm)
 - One touchpad:
   - Cirque 40mm with flat or curved overlay
-  - Azoteq TPS43
+  - Azoteq TPS43 + some vinyl sheet as overlay
 - Right angled PH2.0 8pin [male connector](https://www.aliexpress.com/item/1005003115054198.html)
 - PH2.0 8pin [female connector with wires](https://www.aliexpress.com/item/4000130210271.html)
-- [Vertical](https://www.aliexpress.com/item/10000000737049.html) 12pin FFC/FPC connectors
+- [Vertical](https://www.aliexpress.com/item/10000000737049.html)/[horizontal](https://www.aliexpress.com/item/4000106123266.html) 12pin FFC/FPC connectors
 - 12pin 0.5mm pitch 6cm/10cm [FFC cable](https://www.aliexpress.com/item/1005002468369055.html) - **both reverse and forward variants**
 - TRRS [connectors](https://www.aliexpress.com/item/4000661212458.html) and [cable](https://www.aliexpress.com/item/1005003676559658.html) - **38 keys version only**
 - USB-C [16pin connectors](https://www.aliexpress.com/item/1005003670899595.html) and [cable](https://www.aliexpress.com/item/1005004649061153.html)
-- 40 [RGB LEDs 3mA](https://www.aliexpress.com/item/1005003636607308.html)
 - [7x1.5mm legs](https://www.aliexpress.com/item/1005002995402961.html)
 - optional - 8mm magnets (2mm height)
 
@@ -117,13 +119,14 @@ Soldering process:
 
 ### USB-C connector
 
+> [!CAUTION]
+> Do not connect that USB-C to PC, it's only for interconnect between left and right sides
+
 - insert the connector into holes and solder one leg from the bottom side (just to hold it in place) ![](08.jpg)
 - put flux on pads, add small amounts of solder and carefully heat each pin one by one heat the pads and solder paste.
 - if some pins are shorted - add flux and move tip from the connector to outside and remove extra solder ![](./09.jpg)
 - when pads are done, solder other legs from bottom side, add more solder to make sure it's firmly soldered but remove extras afterwards (solder must be flat with PCB, no blobs)
 - I recommend to solder legs on top side as well ![](./10.jpg)
-
-**DO NOT CONNECT THAT USB-C TO YOUR PC, IT'S ONLY FOR INTERCONNECT BETWEEN LEFT AND RIGHT SIDES**
 
 ### TRRS connector - MX38 version only ⚠️
 
