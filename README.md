@@ -5,7 +5,7 @@ Family of modular split keyboards with 38 or 40 keys, LCD display and Cirque/Azo
 ## Features
 
 All versions:
-
+- Hotswap sockets
 - LCD display (1.69" 240x280 by default)
 - Cirque or Azoteq (with VIK adapter) trackpad
 - roller/rotary encoders
@@ -15,12 +15,14 @@ All versions:
 |                                                    | MX-40              | MX-38              | Choc               |
 | -------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | Number of keys                                     | 40                 | 38                 | 38                 |
-| Supported switches                                 | MX/KS              | MX/KS              | Choc               |
+| Supported switches                                 | MX/KS<sup>[1]</sup>| MX/KS<sup>[1]</sup>| Choc v1            |
 | Interconnect                                       | USB-C              | USB-C/TRRS         | USB-C/TRRS         |
 | Interconnect                                       | USB-C              | USB-C/TRRS         | USB-C/TRRS         |
 | [VIK](https://github.com/sadekbaroudi/vik) support | :heavy_check_mark: | :heavy_check_mark: | :x:                |
 | Module system                                      | :heavy_check_mark: | :heavy_check_mark: | :x:                |
 | Splay                                              | :x:                | :x:                | :heavy_check_mark: |
+
+**[1]**: KS-33/KS-27 - Gateron Low Profile switches, not compatible with MX footprint and require special hotswap sockets
 
 ## Photos
 
@@ -69,6 +71,7 @@ Please see main `config.h` and `rules.mk` for comments and available options.
 - [pre-compiled files](https://github.com/zzeneg/vial-qmk/releases/tag/zzeneg)
 
 #### Compiled versions
+> Each firmware name has two modules, first is on the left side, second on the right, e.g. if your keyboard has Azoteq on the left and round display on the right - choose `azoteq-round`
 
 - keymaps:
   - `default` - sample keymap with home row mods. Not recommended for longer use - create your own.
@@ -81,9 +84,8 @@ Please see main `config.h` and `rules.mk` for comments and available options.
   - `-curved-` - curved 40mm Cirque
   - `-azoteq-` - Azoteq TPS43
 
-> Each firmware name has two modules, first is on the left side, second on the right, e.g. if your keyboard has Azoteq on the left and round display on the right - choose `azoteq-round`
-
-> For 38keys version and VIK display adapter you have redefine LCD pins as in 40keys version
+> [!WARNING]
+> For 38keys version with VIK display adapter - redefine LCD pins in `config.h` as in 40keys version
 
 ## Build Guide
 
@@ -93,6 +95,7 @@ Please see main `config.h` and `rules.mk` for comments and available options.
 
 ## VIK - MX38/MX40 versions only ⚠️
 
+> [!NOTE]
 > VIK is a standard for a data interface between printed circuit boards. It is intended to provide modularity between a mechanical keyboard PCB and additional features.
 
 [VIK repository](https://github.com/sadekbaroudi/vik)
