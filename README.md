@@ -50,7 +50,7 @@ https://github.com/zzeneg/stront/assets/910255/bb812821-9b2b-454a-a9a5-45d696a1f
   - Cirque 40mm flat
   - Cirque 40mm curved
   - Azoteq TPS43
-  - Azoteq TPS65
+  - Azoteq TPS65 (technically supported but I think it's too big)
 
 ## Firmware
 
@@ -82,6 +82,8 @@ Please see main `config.h` and `rules.mk` for comments and available options.
   - `-azoteq-` - Azoteq TPS43
 
 > Each firmware name has two modules, first is on the left side, second on the right, e.g. if your keyboard has Azoteq on the left and round display on the right - choose `azoteq-round`
+
+> For 38keys version and VIK display adapter you have redefine LCD pins as in 40keys version
 
 ## Build Guide
 

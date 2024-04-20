@@ -6,7 +6,7 @@ The build process is the same for 38 and 40 keys versions, but files are differe
 
 - Main PCB - [mx40](/gerbers/mx40.zip) or [mx38](/gerbers/mx38.zip)
 - for Azoteq touchpad only - [VIK adapter](https://github.com/sadekbaroudi/vik/tree/master/pcb/azoteq-tps) (or solder wires directly instead)
-- for bare 2" display only - [VIK adapter](https://github.com/zzeneg/vik-display-adapter) (universal pcb 0.8mm/0.7 pitch - **must** match your display)
+- for bare 2" display only - [VIK adapter](https://github.com/zzeneg/vik-display-adapter) (universal pcb 0.7/0.8mm pitch - **must** match your display)
 
 ## Case files (3d printed)
 
@@ -16,7 +16,7 @@ Main files - in [mx40](/case/mx40) and [mx38](/case/mx38) folders:
 - 2.5mm plate for KS-27/KS-33 switches
 - versions for `rotary` and `roller` encoders
 
-Covers - in [covers](/stl/covers) folder:
+Covers - in [covers](/case/covers) folder:
 
 - `left`/`right` versions for asymmetric covers
 
@@ -40,7 +40,7 @@ Covers - in [covers](/stl/covers) folder:
 - Right angled PH2.0 8pin [male connector](https://www.aliexpress.com/item/1005003115054198.html)
 - PH2.0 8pin [female connector with wires](https://www.aliexpress.com/item/4000130210271.html)
 - [Vertical](https://www.aliexpress.com/item/10000000737049.html) 12pin FFC/FPC connectors
-- 12pin 0.5mm pitch 6cm/10cm [FFC cable](https://www.aliexpress.com/item/1005002468369055.html) - grab both reverse and forward variants, in case you solder the connector upside down
+- 12pin 0.5mm pitch 6cm/10cm [FFC cable](https://www.aliexpress.com/item/1005002468369055.html) - **both reverse and forward variants**
 - TRRS [connectors](https://www.aliexpress.com/item/4000661212458.html) and [cable](https://www.aliexpress.com/item/1005003676559658.html) - **38 keys version only**
 - USB-C [16pin connectors](https://www.aliexpress.com/item/1005003670899595.html) and [cable](https://www.aliexpress.com/item/1005004649061153.html)
 - 40 [RGB LEDs 3mA](https://www.aliexpress.com/item/1005003636607308.html)
