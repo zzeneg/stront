@@ -146,7 +146,7 @@ Choose your encoders and solder them, there's only one way to solder it. I prefe
 
 Pretty similar to USB-C connector but easier thanks to 1mm space between pins. Also if you fail the step you can use a [daughterboard](https://www.aliexpress.com/item/4001156449357.html) (0.5mm pitch, 12 pins), it matches the holes on the PCB.
 
-- place connector with black moving part facing the switches (if you messed up here, don't worry and just use another cable during assembly)
+- align connector to silkscreen - black moving part should be on the right (if you messed up here, don't worry and just use another cable during assembly)
 - tin one square mounting pad, align small pins to pads and solder big pad ![](./12.jpg)
 - carefully solder pins one by one
 - make sure there are no bridges and solder the second mounting pad
