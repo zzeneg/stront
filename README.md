@@ -1,80 +1,104 @@
 # stront
 
-Split keyboard with 38 keys, LCD display and trackpad (Azoteq or Cirque).
+Family of modular split keyboards with 38 or 40 keys, LCD display and Cirque/Azoteq trackpad.
 
 ## Features
 
-- MX, KS-33 or Choc switches
-- wired split with USB-C or TRRS interconnection
-- 38 keys
-- roller/rotary encoders
+All versions:
+- Hotswap sockets
 - LCD display (1.69" 240x280 by default)
-- Azoteq/Cirque trackpad support
-- 2-key pinky columns
+- Cirque or Azoteq (with VIK adapter) trackpad
+- roller/rotary encoders
 - 3D printed cases
-- [VIK](https://github.com/sadekbaroudi/vik) support - **MX/KS version only**
+- exposed SPI/I2C contacts, so any other device can be used instead, it's just a matter of changing the case
 
-**PCB has all SPI/I2C contacts exposed, so any other device can be used instead, it's just a matter of changing the case (at least that's the idea).**
+|                                                    | MX-40              | MX-38              | Choc               |
+| -------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| Number of keys                                     | 40                 | 38                 | 38                 |
+| Supported switches                                 | MX/KS<sup>[1]</sup>| MX/KS<sup>[1]</sup>| Choc v1            |
+| Interconnect                                       | USB-C              | USB-C/TRRS         | USB-C/TRRS         |
+| Interconnect                                       | USB-C              | USB-C/TRRS         | USB-C/TRRS         |
+| [VIK](https://github.com/sadekbaroudi/vik) support | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| Module system                                      | :heavy_check_mark: | :heavy_check_mark: | :x:                |
+| Splay                                              | :x:                | :x:                | :heavy_check_mark: |
+
+**[1]**: KS-33/KS-27 - Gateron Low Profile switches, not compatible with MX footprint and require special hotswap sockets
 
 ## Photos
 
-#### MX Version
+#### MX-40 and MX-38 versions
+
+![](./images/mx40.jpg)
+
+#### MX-38 versions (MX and KS-33 switches)
 
 ![](./images/mx.jpg)
-![](./images/mx3.jpg)
-![](./images/tps65.jpg)
 
 #### Choc version
 
 ![](./images/top.jpg)
-![](./images/pcb.jpg)
 
 #### Display with PC companion app
 
 https://github.com/zzeneg/stront/assets/910255/bb812821-9b2b-454a-a9a5-45d696a1f5aa
 
+## Available modules - MX38/MX40 versions only ⚠️
+
+- LCD displays
+  - ST7789 1.69" 240x280
+  - ST7789 2" 240x320
+  - GC9A01 round 1.28" 240x240
+- Touchpads
+  - Cirque 40mm flat
+  - Cirque 40mm curved
+  - Azoteq TPS43
+  - Azoteq TPS65 (technically supported but I think it's too big)
+
 ## Firmware
 
 [Companion app](https://github.com/zzeneg/qmk-hid-host) for Raw HID communication.
 
-QMK
+#### QMK
 
-- [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/stront/keyboards/stront)
-- [pre-compiled files](./firmware/qmk/)
+Please see main `config.h` and `rules.mk` for comments and available options.
 
-Vial
+- [source code](https://github.com/zzeneg/qmk_firmware/tree/stront/keyboards/stront)
+- [pre-compiled files](https://github.com/zzeneg/qmk_firmware/releases/tag/stront)
 
-- [source code](https://github.com/zzeneg/vial-qmk/tree/feature/stront)
-- [pre-compiled files](./firmware/vial/)
+#### Vial
 
-Compiled versions:
+- [source code](https://github.com/zzeneg/vial-qmk/tree/feature/zzeneg/keyboards/stront)
+- [pre-compiled files](https://github.com/zzeneg/vial-qmk/releases/tag/zzeneg)
 
-- `default` - sample keymap with home row mods. Not recommended for longer use - create your own.
-- `hid` - default keymap with HID support. Requires companion application.
-- `zzeneg` - my highly customized layout.
-- `*-rect` - version with rectangular display (ST7789 240x280)
-- `*-round` - version with round display (GC9A01 240x240)
-- `*-flat` - version with flat Cirque
-- `*-curved` - version with curved Cirque
-- `*-mirror` - version with trackpad on left and display on right side
+#### Compiled versions
+> Each firmware name has two modules, first is on the left side, second on the right, e.g. if your keyboard has Azoteq on the left and round display on the right - choose `azoteq-round`
+
+- keymaps:
+  - `default` - sample keymap with home row mods. Not recommended for longer use - create your own.
+  - `hid` - default keymap with HID support. Requires companion application.
+  - `zzeneg` - my highly customized layout.
+- hardware versions:
+  - `-rect-` - rectangular display (ST7789 240x280)
+  - `-round-` - round display (GC9A01 240x240)
+  - `-flat-` - flat 40mm Cirque
+  - `-curved-` - curved 40mm Cirque
+  - `-azoteq-` - Azoteq TPS43
+
+> [!WARNING]
+> For 38keys version with VIK display adapter - redefine LCD pins in `config.h` as in 40keys version
 
 ## Build Guide
 
-[MX/KS version](./build-guide/mx/readme.md)
+[MX38/MX40 versions](./build-guide/mx/readme.md)
 
 [Choc version](./build-guide/choc/readme.md)
 
-## Azoteq touchpads - MX/KS version only ⚠️
+## VIK - MX38/MX40 versions only ⚠️
 
-- covers (right side only) - [TPS43](./stl/mx/azoteq-tps43.stl), [TPS65](./stl/mx/azoteq-tps65-right.stl) (tested)
-- firmware - experimental support [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/zzeneg/keyboards/stront)
-- to connect touchpad you can use either [VIK adapter](https://github.com/sadekbaroudi/vik/tree/master/pcb/azoteq-tps) or solder wires directly from Azoteq pads to I2C contacts on PCB
-
-## VIK - MX/KS version only ⚠️
-
+> [!NOTE]
 > VIK is a standard for a data interface between printed circuit boards. It is intended to provide modularity between a mechanical keyboard PCB and additional features.
 
-[VIK repository ](https://github.com/sadekbaroudi/vik)
+[VIK repository](https://github.com/sadekbaroudi/vik)
 
 #### Certification card
 
@@ -98,13 +122,13 @@ Compiled versions:
 
 #### VIK usage
 
-Built-in display and trackpad use the same interface, so any additional VIK module will have to replace one of them. Depending on the size it can integrated into the cover or a standalone case.
+Built-in display and trackpad use the same interface, so any additional VIK module will have to replace one of them (it's possible to combine other I2C modules with Azoteq). Depending on the size it can integrated into the cover or a standalone case.
 
 All possible connectors support VIK - FPC horizontal on the back, FPC vertical on the front and the breakout pins.
 
 ## Support
 
-If you like my work and want to support my future designs, please consider [sponsorship](https://github.com/sponsors/zzeneg), ordering from PCBWay using my shared projects - [Choc](https://www.pcbway.com/project/shareproject/Stront_low_profile_keyboard_85ec2664.html) and [MX/KS](https://www.pcbway.com/project/shareproject/Stront_MX_KS_33_keyboard_6a70e49a.html), or using [referral link](https://pcbway.com/g/3wpLAF) for signing up.
+If you like my work and want to support my future designs, please consider [sponsorship](https://github.com/sponsors/zzeneg), ordering from PCBWay using my shared projects - [Choc](https://www.pcbway.com/project/shareproject/Stront_low_profile_keyboard_85ec2664.html) or [MX38](https://www.pcbway.com/project/shareproject/Stront_MX_KS_33_keyboard_6a70e49a.html), or using [referral link](https://pcbway.com/g/3wpLAF) for signing up.
 
 #### Sponsors
 

@@ -1,6 +1,7 @@
 */**/*-backups
 
 pcb/**/gerber
+pcb/**/production
 
 case/gerber
 case/dxf

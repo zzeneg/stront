@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "zzkeeb")(type "KiCad")(uri "${ZZKEEB}/zzkeeb.pretty")(options "")(descr ""))
+  (lib (name "vik")(type "KiCad")(uri "${ZZKEEB}/lib/vik/kicad/vik.pretty")(options "")(descr ""))
+)
