@@ -62,8 +62,8 @@ https://github.com/zzeneg/stront/assets/910255/bb812821-9b2b-454a-a9a5-45d696a1f
 
 Please see main `config.h` and `rules.mk` for comments and available options.
 
-- [source code](https://github.com/zzeneg/qmk_firmware/tree/feature/zzeneg/keyboards/stront)
-- [pre-compiled files](https://github.com/zzeneg/qmk_firmware/releases/tag/zzeneg)
+- [source code](https://github.com/zzeneg/qmk_firmware/tree/stront/keyboards/stront)
+- [pre-compiled files](https://github.com/zzeneg/qmk_firmware/releases/tag/stront)
 
 #### Vial
 
